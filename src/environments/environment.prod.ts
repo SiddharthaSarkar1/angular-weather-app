@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://your-production-api.com/api',
-    apiKey: 'your-production-api-key'
+    WeatherApiBaseUrl: "https://api.openweathermap.org/data/2.5/weather?q=kolkata&units=metric&APPID=",
+    WeatherApiKey: 'API_KEY_PLACEHOLDER'
   };
